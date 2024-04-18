@@ -1,0 +1,34 @@
+=============== Apr 17, 2024 (MSK) ===============
+14:34:20.177340 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:34:20.183129 db@open opening
+14:34:20.186741 version@stat F·[] S·0B[] Sc·[]
+14:34:20.188749 db@janitor F·2 G·0
+14:34:20.188749 db@open done T·5.6196ms
+16:37:20.205747 memdb@flush N·36006 S·3MiB
+16:37:20.228694 memdb@flush created L0@3 N·36006 S·755KiB "loc..seq,v32240":"version,v1"
+16:37:20.229697 version@stat F·[1] S·755KiB[755KiB] Sc·[0.25]
+16:37:20.230695 memdb@flush committed F·1 T·24.5028ms
+16:37:20.231696 journal@remove removed @1
+=============== Apr 18, 2024 (MSK) ===============
+14:18:20.210490 memdb@flush N·35058 S·3MiB
+14:18:20.236086 memdb@flush created L0@5 N·35058 S·639KiB "loc..seq,v55406":"n:\xff..ong,v55405"
+14:18:20.236086 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+14:18:20.236591 memdb@flush committed F·1 T·18.9981ms
+14:18:20.237708 journal@remove removed @2
+14:18:33.166296 table@compaction L0·2 -> L1·0 S·1MiB Q·71321
+14:18:33.193764 table@build created L1@6 N·17019 S·562KiB "loc..seq,v55406":"version,v1"
+14:18:33.194377 version@stat F·[0 1] S·562KiB[0B 562KiB] Sc·[0.00 0.01]
+14:18:33.194543 table@compaction committed F-1 S-832KiB Ke·0 D·54045 T·27.7078ms
+14:18:33.195549 table@remove removed @5
+14:18:33.195549 table@remove removed @3
+14:56:20.209267 memdb@flush N·34140 S·3MiB
+14:56:20.232240 memdb@flush created L0@8 N·34140 S·555KiB "n:\x02..:v4,v105043":"n:\xff..ong,v71283"
+14:56:20.232240 version@stat F·[1 1] S·1MiB[555KiB 562KiB] Sc·[0.25 0.01]
+14:56:20.232761 memdb@flush committed F·1 T·23.4939ms
+14:56:20.233793 journal@remove removed @4
+14:56:38.719695 table@compaction L0·1 -> L1·1 S·1MiB Q·105616
+14:56:38.745116 table@build created L1@9 N·18753 S·616KiB "loc..seq,v55406":"version,v1"
+14:56:38.745116 version@stat F·[0 1] S·616KiB[0B 616KiB] Sc·[0.00 0.01]
+14:56:38.746181 table@compaction committed F-1 S-501KiB Ke·0 D·32406 T·26.4862ms
+14:56:38.746181 table@remove removed @8
+14:56:38.746694 table@remove removed @6
